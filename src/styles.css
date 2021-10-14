@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* ./your-css-folder/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply bg-white rounded overflow-hidden shadow-md relative;
+}
+
+.badge{
+    @apply bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full px-2 py-1 absolute top-1 left-1;
+}
+
+.btn{
+    @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
+}
